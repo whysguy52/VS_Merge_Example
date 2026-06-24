@@ -2,22 +2,10 @@
   "Version": 1,
   "Content": [
     {
-      "Path": "LocalMnemonic.ImageStripLocalMnemonics.RecordFolderAssign",
-      "Value": true,
+      "Path": "LocalMnemonic.ImageStripLocalMnemonics.HistoryOutputFolderAssign",
+      "Value": false,
       "Type": "System.Boolean",
       "InnerType": "System.Boolean"
-    },
-    {
-      "Path": "LocalMnemonic.EditorLocalMnemonics.SimulationLumiTraxMode",
-      "Value": true,
-      "Type": "System.Boolean",
-      "InnerType": "System.Boolean"
-    },
-    {
-      "Path": "LocalMnemonic.ImageStripLocalMnemonics.ImageOutputFolder",
-      "Value": "C:\\Users\\Public\\Documents\\KEYENCE\\VS\\00-01-FC-DF-54-5F\\EM\\VS\\Camera\\Programs\\0000_GitHub_Protram\\SimulationImages",
-      "Type": "System.String",
-      "InnerType": "System.String"
     },
     {
       "Path": "LocalMnemonic.ImageStripLocalMnemonics.HistoryOutputFolder",
@@ -32,37 +20,7 @@
       "InnerType": "System.String"
     },
     {
-      "Path": "LocalMnemonic.ImageStripLocalMnemonics.HistoryOutputFileType",
-      "Value": "PNG",
-      "Type": "System.String",
-      "InnerType": "System.String"
-    },
-    {
-      "Path": "LocalMnemonic.ImageStripLocalMnemonics.HistoryOutputFolderAssign",
-      "Value": false,
-      "Type": "System.Boolean",
-      "InnerType": "System.Boolean"
-    },
-    {
-      "Path": "LocalMnemonic.ImageStripLocalMnemonics.ImageOutputFileType",
-      "Value": "PNG",
-      "Type": "System.String",
-      "InnerType": "System.String"
-    },
-    {
-      "Path": "LocalMnemonic.ImageStripLocalMnemonics.ImageOutputFolderAssign",
-      "Value": false,
-      "Type": "System.Boolean",
-      "InnerType": "System.Boolean"
-    },
-    {
-      "Path": "LocalMnemonic.ImageStripLocalMnemonics.IsBatchSpecificationWay",
-      "Value": true,
-      "Type": "System.Boolean",
-      "InnerType": "System.Boolean"
-    },
-    {
-      "Path": "LocalMnemonic.ImageStripLocalMnemonics.SimulationImageFileSourceFolderAssign",
+      "Path": "LocalMnemonic.ImageStripLocalMnemonics.RecordFolderAssign",
       "Value": true,
       "Type": "System.Boolean",
       "InnerType": "System.Boolean"
@@ -78,6 +36,48 @@
       "Value": "PNG",
       "Type": "System.String",
       "InnerType": "System.String"
+    },
+    {
+      "Path": "LocalMnemonic.ImageStripLocalMnemonics.HistoryOutputFileType",
+      "Value": "PNG",
+      "Type": "System.String",
+      "InnerType": "System.String"
+    },
+    {
+      "Path": "LocalMnemonic.ImageStripLocalMnemonics.ImageOutputFolder",
+      "Value": "C:\\Users\\Public\\Documents\\KEYENCE\\VS\\00-01-FC-DF-54-5F\\EM\\VS\\Camera\\Programs\\0000_GitHub_Protram\\SimulationImages",
+      "Type": "System.String",
+      "InnerType": "System.String"
+    },
+    {
+      "Path": "LocalMnemonic.ImageStripLocalMnemonics.ImageOutputFileType",
+      "Value": "PNG",
+      "Type": "System.String",
+      "InnerType": "System.String"
+    },
+    {
+      "Path": "LocalMnemonic.ImageStripLocalMnemonics.ImageOutputFolderAssign",
+      "Value": false,
+      "Type": "System.Boolean",
+      "InnerType": "System.Boolean"
+    },
+    {
+      "Path": "LocalMnemonic.ImageStripLocalMnemonics.SimulationImageFileSourceFolderAssign",
+      "Value": true,
+      "Type": "System.Boolean",
+      "InnerType": "System.Boolean"
+    },
+    {
+      "Path": "LocalMnemonic.ImageStripLocalMnemonics.IsBatchSpecificationWay",
+      "Value": true,
+      "Type": "System.Boolean",
+      "InnerType": "System.Boolean"
+    },
+    {
+      "Path": "LocalMnemonic.EditorLocalMnemonics.SimulationLumiTraxMode",
+      "Value": true,
+      "Type": "System.Boolean",
+      "InnerType": "System.Boolean"
     }
   ]
 }

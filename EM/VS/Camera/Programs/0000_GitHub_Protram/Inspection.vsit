@@ -1750,7 +1750,7 @@ footer :
 				kind = "UserPackage"
 			[2] :
 				id = "Tool[0002]"
-				type = "Blob"
+				type = "Stain"
 				kind = "UserPackage"
 header :
 	tag :
@@ -2422,7 +2422,7 @@ Tool[0001] :
 header :
 	tag :
 		id = "Tool[0002]"
-		type = "Blob"
+		type = "Stain"
 		kind = "UserPackage"
 Tool[0002] :
 	references :
@@ -2432,22 +2432,22 @@ Tool[0002] :
 				reference = "Tool[0000][0000].Output.Camera[0].Normal.Image"
 	general :
 		name :
-			english = "Blob"
-			japanese = "ブロブ"
-			simplifiedChinese = "斑点"
-			traditionalChinese = "斑點"
-			german = "Blob"
-			spanish = "Blob"
-			korean = "블랍"
-			french = "Blob"
-			italian = "Elementi"
-			polish = "Plamka"
-			czech = "Shluk"
-			hungarian = "Folt"
-			indonesian = "Blob"
-			thai = "BLOB"
-			portuguese = "Blob"
-			vietnamese = "Blob"
+			english = "Defect"
+			japanese = "傷"
+			simplifiedChinese = "瑕疵"
+			traditionalChinese = "損傷"
+			german = "Defekt"
+			spanish = "Defecto"
+			korean = "흠집"
+			french = "Tache"
+			italian = "Macchia"
+			polish = "Defekt"
+			czech = "Vada"
+			hungarian = "Hiba"
+			indonesian = "Noda"
+			thai = "รอยเปื้อน/ตำหนิ"
+			portuguese = "Defeito"
+			vietnamese = "Hỏng"
 		origin_point :
 			x = 0.000000
 			y = 0.000000
@@ -2665,11 +2665,9 @@ Tool[0002] :
 	filter :
 		list{16} :
 			[0] :
-				param<5 (Binary)> :
-					binary :
-						upperLimit = 255
-						lowerLimit = 128
-				enable = 1 (true)
+				param<0 (None)> :
+					none :
+				enable = 0 (false)
 			[1] :
 				param<0 (None)> :
 					none :
@@ -2769,176 +2767,129 @@ Tool[0002] :
 			[30] = 0 (false)
 			[31] = 0 (false)
 		contrastImageArchive{32} :
-			[0] = 1 (true)
-			[1] = 1 (true)
-			[2] = 1 (true)
-			[3] = 1 (true)
-			[4] = 1 (true)
-			[5] = 1 (true)
-			[6] = 1 (true)
-			[7] = 1 (true)
-			[8] = 1 (true)
-			[9] = 1 (true)
-			[10] = 1 (true)
-			[11] = 1 (true)
-			[12] = 1 (true)
-			[13] = 1 (true)
-			[14] = 1 (true)
-			[15] = 1 (true)
-			[16] = 1 (true)
-			[17] = 1 (true)
-			[18] = 1 (true)
-			[19] = 1 (true)
-			[20] = 1 (true)
-			[21] = 1 (true)
-			[22] = 1 (true)
-			[23] = 1 (true)
-			[24] = 1 (true)
-			[25] = 1 (true)
-			[26] = 1 (true)
-			[27] = 1 (true)
-			[28] = 1 (true)
-			[29] = 1 (true)
-			[30] = 1 (true)
-			[31] = 1 (true)
-	blobDetectionParam :
-		detectionColor = 1 (White)
-		detectionMaxNumber = 30
-		fillVoid = 1 (true)
-		ignoreOutsideRegion = 0 (false)
-		detectionOrder = 7 (DscArea)
-		standardAngle = 0.000000
-		angleRange = 0 (Angle180)
-		judgedLabelType = 1 (Individual)
-		judgedLabelNumber = 0
-		rotateSurroundRectangle = 0 (false)
-		minimumBoundingRectangle = 0 (false)
-		equivalentEllipsoid = 0 (false)
-		areaMax = 99999999
-		areaMin = 100
-		roundnessMax = 1.000000
-		roundnessMin = 0.000000
-		majorAxisMax = 99999.999000
-		majorAxisMin = 0.000000
-		axesRatioMax = 99999.999000
-		axesRatioMin = 0.000000
-		equivalentOvalMajorAxisMax = 99999.999000
-		equivalentOvalMajorAxisMin = 0.000000
-		equivalentOvalAspectRatioMax = 99999.999000
-		equivalentOvalAspectRatioMin = 0.000000
-	blob.judge :
-		count :
-			maximum :
-				enable = 0 (false)
-				limit = 30000
-			minimum :
-				enable = 0 (false)
-				limit = 0
-		totalArea :
-			maximum :
-				enable = 0 (false)
-				limit = 99999999
-			minimum :
-				enable = 0 (false)
-				limit = 0
-		positionX :
-			maximum :
-				enable = 0 (false)
-				limit = 99999.999000
-			minimum :
-				enable = 0 (false)
-				limit = -99999.999000
-		positionY :
-			maximum :
-				enable = 0 (false)
-				limit = 99999.999000
-			minimum :
-				enable = 0 (false)
-				limit = -99999.999000
-		angle :
-			maximum :
-				enable = 0 (false)
-				limit = 180.000000
-			minimum :
-				enable = 0 (false)
-				limit = -180.000000
-		area :
-			maximum :
-				enable = 0 (false)
-				limit = 99999999
-			minimum :
-				enable = 0 (false)
-				limit = 0
-		feretDiameterX :
-			maximum :
-				enable = 0 (false)
-				limit = 99999.999000
-			minimum :
-				enable = 0 (false)
-				limit = 0.000000
-		feretDiameterY :
-			maximum :
-				enable = 0 (false)
-				limit = 99999.999000
-			minimum :
-				enable = 0 (false)
-				limit = 0.000000
-		perimeter :
-			maximum :
-				enable = 0 (false)
-				limit = 99999999
-			minimum :
-				enable = 0 (false)
-				limit = 0
+			[0] = 0 (false)
+			[1] = 0 (false)
+			[2] = 0 (false)
+			[3] = 0 (false)
+			[4] = 0 (false)
+			[5] = 0 (false)
+			[6] = 0 (false)
+			[7] = 0 (false)
+			[8] = 0 (false)
+			[9] = 0 (false)
+			[10] = 0 (false)
+			[11] = 0 (false)
+			[12] = 0 (false)
+			[13] = 0 (false)
+			[14] = 0 (false)
+			[15] = 0 (false)
+			[16] = 0 (false)
+			[17] = 0 (false)
+			[18] = 0 (false)
+			[19] = 0 (false)
+			[20] = 0 (false)
+			[21] = 0 (false)
+			[22] = 0 (false)
+			[23] = 0 (false)
+			[24] = 0 (false)
+			[25] = 0 (false)
+			[26] = 0 (false)
+			[27] = 0 (false)
+			[28] = 0 (false)
+			[29] = 0 (false)
+			[30] = 0 (false)
+			[31] = 0 (false)
+	stain :
+		scanDirection = 2 (XY)
+		elementSpecifications = 0 (false)
+		highSpeedMode = 1 (true)
+		defectLevel = 10
+		elementSize :
+			common = 16
+			x = 16
+			y = 16
+			circumference = 16
+			radius = 16
+		compareElementInterval = 0 (Auto)
+		elementShift :
+			common = 4
+			x = 4
+			y = 4
+			circumference = 4
+			radius = 4
+		compareElement :
+			common = 1
+			x = 1
+			y = 1
+			circumference = 1
+			radius = 1
+		gainEnable = 0 (false)
+		gain = 1.000000
+		ignoreIntensity = 0 (false)
+		grouping = 0 (false)
+		count = 10
+		primaryTarget = 0
+		defectAreaMax = 99999999
+		defectAreaMin = 1
 		roundness :
-			maximum :
-				enable = 0 (false)
-				limit = 1.000000
-			minimum :
-				enable = 0 (false)
-				limit = 0.000000
+			enabled = 0 (false)
+			maximum = 1.000000
+			minimum = 0.000000
 		majorAxis :
-			maximum :
-				enable = 0 (false)
-				limit = 99999.999000
-			minimum :
-				enable = 0 (false)
-				limit = 0.000000
-		minorAxis :
-			maximum :
-				enable = 0 (false)
-				limit = 99999.999000
-			minimum :
-				enable = 0 (false)
-				limit = 0.000000
+			enabled = 0 (false)
+			maximum = 99999.999000
+			minimum = 0.000000
 		axesRatio :
-			maximum :
-				enable = 0 (false)
-				limit = 99999.999000
-			minimum :
-				enable = 0 (false)
-				limit = 0.000000
+			enabled = 0 (false)
+			maximum = 99999.999000
+			minimum = 0.000000
 		distOvalMajorAxis :
-			maximum :
-				enable = 0 (false)
-				limit = 99999.999000
-			minimum :
-				enable = 0 (false)
-				limit = 0.000000
-		distOvalMinorAxis :
-			maximum :
-				enable = 0 (false)
-				limit = 99999.999000
-			minimum :
-				enable = 0 (false)
-				limit = 0.000000
+			enabled = 0 (false)
+			maximum = 99999.999000
+			minimum = 0.000000
 		aspectRatio :
+			enabled = 0 (false)
+			maximum = 99999.999000
+			minimum = 0.000000
+		fillHoles = 0 (false)
+		activeBorder = 0 (false)
+		order = 11 (DefectAreaDesc)
+	stain.judge :
+		judgeTotalDefectArea :
+			maximum :
+				enable = 0 (false)
+				limit = 99999999
+			minimum :
+				enable = 0 (false)
+				limit = 0
+		judgeCount :
+			maximum :
+				enable = 0 (false)
+				limit = 99
+			minimum :
+				enable = 0 (false)
+				limit = 0
+		judgeDefectArea :
+			maximum :
+				enable = 0 (false)
+				limit = 99999999
+			minimum :
+				enable = 0 (false)
+				limit = 0
+		judgePositionX :
 			maximum :
 				enable = 0 (false)
 				limit = 99999.999000
 			minimum :
 				enable = 0 (false)
-				limit = 0.000000
+				limit = -99999.999000
+		judgePositionY :
+			maximum :
+				enable = 0 (false)
+				limit = 99999.999000
+			minimum :
+				enable = 0 (false)
+				limit = -99999.999000
 	Input.Graphic.Region.Header :
 		visible = 1 (true)
 		strokeWidth = 2
@@ -2966,7 +2917,7 @@ Tool[0002] :
 			blue = 177
 	Input.Graphic.PrimaryTarget.Header :
 		visible = 1 (true)
-		shape = 9 (ArrowedPlus)
+		shape = 1 (Cross)
 		size = 16
 		strokeWidth = 2
 		passVisible = 1 (true)
@@ -2981,23 +2932,12 @@ Tool[0002] :
 			blue = 12
 		fontSize = 12
 		indexVisible = 0 (false)
+		defectVisible = 0 (false)
 		positionXVisible = 0 (false)
 		positionYVisible = 0 (false)
-		positionAngleVisible = 0 (false)
-		areaVisible = 0 (false)
-		feretDiameterXVisible = 0 (false)
-		feretDiameterYVisible = 0 (false)
-		perimeterVisible = 0 (false)
-		roundnessVisible = 0 (false)
-		majorAxisVisible = 0 (false)
-		minorAxisVisible = 0 (false)
-		axesRatioVisible = 0 (false)
-		distOvalMajorAxisVisible = 0 (false)
-		distOvalMinorAxisVisible = 0 (false)
-		aspectRatioVisible = 0 (false)
 	Input.Graphic.ArrayTarget.Header :
 		visible = 1 (true)
-		shape = 9 (ArrowedPlus)
+		shape = 1 (Cross)
 		size = 16
 		strokeWidth = 1
 		passVisible = 1 (true)
@@ -3012,20 +2952,9 @@ Tool[0002] :
 			blue = 14
 		fontSize = 12
 		indexVisible = 0 (false)
+		defectVisible = 0 (false)
 		positionXVisible = 0 (false)
 		positionYVisible = 0 (false)
-		positionAngleVisible = 0 (false)
-		areaVisible = 0 (false)
-		feretDiameterXVisible = 0 (false)
-		feretDiameterYVisible = 0 (false)
-		perimeterVisible = 0 (false)
-		roundnessVisible = 0 (false)
-		majorAxisVisible = 0 (false)
-		minorAxisVisible = 0 (false)
-		axesRatioVisible = 0 (false)
-		distOvalMajorAxisVisible = 0 (false)
-		distOvalMinorAxisVisible = 0 (false)
-		aspectRatioVisible = 0 (false)
 header :
 	tag :
 		id = "Workbook"
