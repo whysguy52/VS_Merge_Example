@@ -42,18 +42,6 @@
       "Value": "MEASURE",
       "Type": "System.String",
       "InnerType": "System.String"
-    },
-    {
-      "Path": "Tool[0002].Param.PaletteBasic.Category",
-      "Value": "MEASURE",
-      "Type": "System.String",
-      "InnerType": "System.String"
-    },
-    {
-      "Path": "Tool[0002].Param.PaletteBasic.Order",
-      "Value": 1,
-      "Type": "System.Int32",
-      "InnerType": "System.Int32"
     }
   ]
 }
