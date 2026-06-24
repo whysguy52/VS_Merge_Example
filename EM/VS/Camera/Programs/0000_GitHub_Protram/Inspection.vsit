@@ -1881,7 +1881,7 @@ Tool[0000][0000] :
 	camera[0].basic :
 		enable = 1 (true)
 		captureMode = 0 (Normal)
-		shutterSpeed = 484.554186
+		shutterSpeed = 484.000000
 		sensitivity = 4.000000
 		gamma :
 			offset = 0
