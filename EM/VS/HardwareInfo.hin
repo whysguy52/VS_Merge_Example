@@ -1,0 +1,10 @@
+{
+    "version": "1.0.0000.0+0",
+    "model": "VS-L1500CX",
+    "macAddress": "00:01:FC:DF:54:5F",
+    "serialNumber": "3X0P000931",
+    "camera": {
+        "model": "VS-L1500CX",
+        "connectedLight": "CA-DEW10X"
+    }
+}

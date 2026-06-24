@@ -1,0 +1,13 @@
+{
+  "Version": 1,
+  "Content": {
+    "IsFavorite": false,
+    "Memo": "",
+    "ControllerName": "GitHub_Sim",
+    "IpAddress": "172.19.102.200",
+    "ModelName": "",
+    "SerialNumber": "--------",
+    "FirmwareVersion": "-.-.----",
+    "MacAddress": "00:01:FC:DF:54:5F"
+  }
+}

@@ -1,0 +1,2024 @@
+header :
+	tag :
+		id = "CaptureCommon"
+		type = "CaptureCommonParam"
+		kind = "StaticPackage"
+CaptureCommon :
+	cameraStructure{1} :
+		[0] :
+			cameraSelection = 1 (Camera1)
+			basicType = 0 (Area)
+			uniqueType = 0 (None)
+			mode = 0 (Normal)
+			lightBasicType = 1 (Normal)
+			lightUniqueType = 0 (None)
+			externalFlashNum = 0
+	lightStructure{0} :
+	triggerStructure{1} :
+		[0] = 1 (ID1)
+	flashStructure{0} :
+	camera[0].basic :
+		model = 59 (VS-L1500CX)
+		resolution = 40 (H2544_V1904)
+		offsetX = 0
+		offsetY = 0
+		mirrorFlipMode = 0 (None)
+		rotation = 0 (None)
+		triggerAssignment = 1 (ID1)
+		laserPointer = 0 (false)
+		standardValueAxisXValid = 0 (false)
+		standardValueAxisYValid = 0 (false)
+		standardValueAxisZValid = 0 (false)
+		standardValueAxisX = 0.000000
+		standardValueAxisY = 0.000000
+		standardValueAxisZ = 0.000000
+		invalidateLensDriveMode = 0 (false)
+		customRoiEnable = 0 (false)
+		width = 2544
+		height = 1904
+	camera[0].light :
+		model = 14 (CA-DEW10X)
+		setUsingLightingController = 1 (off)
+		enableTestEmission = 0 (false)
+		testEmissionType = 0 (Normal)
+		standardValueAxisXValid = 0 (false)
+		standardValueAxisYValid = 0 (false)
+		standardValueAxisZValid = 0 (false)
+		standardValueAxisX = 0.000000
+		standardValueAxisY = 0.000000
+		standardValueAxisZ = 0.000000
+	trigger[0] :
+		mode = 0 (External)
+		cycle = 1
+		source :
+			industrialNetwork = 1 (true)
+			nonProcedure = 1 (true)
+			terminal = 1 (true)
+			opcua = 1 (true)
+		enableEncoder = 0 (false)
+		cycleCount = 1
+		enableTriggerOverlap = 0 (false)
+		stopCaptureByEXT = 0 (false)
+		lineScanIntervalTime = 300
+		lineScanIntervalCount = 1
+		encoder :
+			samplingMode = 0 (x1)
+			direction = 0 (None)
+			reverseDetection = 0 (false)
+			zPhaseFunction = 0 (None)
+			externalTrigger = 0 (Trigger)
+			detectTimeout = 0 (false)
+			timeout = 99999
+	common :
+		cameraTriggerTerminal = 0 (false)
+		imageSourceMode = 0 (Camera)
+header :
+	tag :
+		id = "Project"
+		type = "Project"
+		kind = "StaticPackage"
+Project :
+	proj :
+		type = ""
+		series = ""
+		formatVersion = ""
+		minimumVersion = ""
+		createdVersion = ""
+		deviceType = ""
+		lastModifiedBy = ""
+		files{16} :
+			[0] :
+				id = ""
+				type = ""
+				path = ""
+			[1] :
+				id = ""
+				type = ""
+				path = ""
+			[2] :
+				id = ""
+				type = ""
+				path = ""
+			[3] :
+				id = ""
+				type = ""
+				path = ""
+			[4] :
+				id = ""
+				type = ""
+				path = ""
+			[5] :
+				id = ""
+				type = ""
+				path = ""
+			[6] :
+				id = ""
+				type = ""
+				path = ""
+			[7] :
+				id = ""
+				type = ""
+				path = ""
+			[8] :
+				id = ""
+				type = ""
+				path = ""
+			[9] :
+				id = ""
+				type = ""
+				path = ""
+			[10] :
+				id = ""
+				type = ""
+				path = ""
+			[11] :
+				id = ""
+				type = ""
+				path = ""
+			[12] :
+				id = ""
+				type = ""
+				path = ""
+			[13] :
+				id = ""
+				type = ""
+				path = ""
+			[14] :
+				id = ""
+				type = ""
+				path = ""
+			[15] :
+				id = ""
+				type = ""
+				path = ""
+		validatioinKeyEnable = 0 (Off)
+	view :
+		generationCount = 3
+header :
+	tag :
+		id = "OutputCommon"
+		type = "OutputCommon"
+		kind = "StaticPackage"
+OutputCommon :
+	references :
+		referenceTable{0} :
+	commonParam :
+		ethernetIp :
+			bufferSize = 200000
+		profinet :
+			bufferSize = 200000
+		etherCat :
+			bufferSize = 200000
+		ftp1 :
+			bufferSize = 200000
+		ftp2 :
+			bufferSize = 0
+		ftp3 :
+			bufferSize = 0
+		sd :
+			bufferSize = 200000
+		usbHdd :
+			bufferSize = 0
+		terminal :
+			bufferSize = 200000
+		nonProcedural :
+			bufferSize = 200000
+		plcLink :
+			bufferSize = 200000
+		ssd1 :
+			bufferSize = 200000
+		ssd2 :
+			bufferSize = 200000
+		ssd :
+			bufferSize = 200000
+		parallelCompressionEnable = 1 (true)
+		dataStorage :
+			bufferSize = 200000
+	sdImage :
+		path = "VS\\Camera\\Images"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	ftpImage :
+		path = "VS\\Camera\\Images"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	ftp2Image :
+		path = "VS\\Camera\\Images"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	ftp3Image :
+		path = "VS\\Camera\\Images"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	usbImage :
+		path = "VS\\Camera\\Images"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	ssd1Image :
+		path = "VS\\Camera\\Images"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	ssd2Image :
+		path = "VS\\Camera\\Images"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	ssdImage :
+		path = "VS\\Camera\\Images"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	dataStorageImage :
+		path = "VS\\Camera\\Images"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	sdGraphicImage :
+		path = "VS\\Camera\\GraphicImages"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	ftpGraphicImage :
+		path = "VS\\Camera\\GraphicImages"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	ftp2GraphicImage :
+		path = "VS\\Camera\\GraphicImages"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	ftp3GraphicImage :
+		path = "VS\\Camera\\GraphicImages"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	usbGraphicImage :
+		path = "VS\\Camera\\GraphicImages"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	ssd1GraphicImage :
+		path = "VS\\Camera\\GraphicImages"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	ssd2GraphicImage :
+		path = "VS\\Camera\\GraphicImages"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	ssdGraphicImage :
+		path = "VS\\Camera\\GraphicImages"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+	dataStorageGraphicImage :
+		path = "VS\\Camera\\GraphicImages"
+		newFolderRule = 2 (Number)
+		newFolderNumber = 1000
+		programFolder = 1 (true)
+header :
+	tag :
+		id = "InspUnitTestTask"
+		type = "InspUnitTestTask"
+		kind = "StaticPackage"
+InspUnitTestTask :
+	ut :
+		package = ""
+		specification = ""
+		field = ""
+header :
+	tag :
+		id = "Misc"
+		type = "Misc"
+		kind = "StaticPackage"
+	tag :
+		id = "SystemProperty"
+		type = "SystemProperty"
+		kind = "StaticPackage"
+	tag :
+		id = "Security"
+		type = "Security"
+		kind = "StaticPackage"
+Security :
+	security :
+		idLockSetting :
+			enable = 0 (false)
+			password :
+				password{4} :
+					[0] :
+						passwordElement = 0
+					[1] :
+						passwordElement = 0
+					[2] :
+						passwordElement = 0
+					[3] :
+						passwordElement = 0
+				elementCount = 4
+			update :
+				path = ""
+				oldPassword = ""
+				newPassword = ""
+			verify :
+				path = ""
+				password = ""
+			permittingMacAddresses :
+				macAddresses{100} :
+					[0] :
+						macAddress = ""
+					[1] :
+						macAddress = ""
+					[2] :
+						macAddress = ""
+					[3] :
+						macAddress = ""
+					[4] :
+						macAddress = ""
+					[5] :
+						macAddress = ""
+					[6] :
+						macAddress = ""
+					[7] :
+						macAddress = ""
+					[8] :
+						macAddress = ""
+					[9] :
+						macAddress = ""
+					[10] :
+						macAddress = ""
+					[11] :
+						macAddress = ""
+					[12] :
+						macAddress = ""
+					[13] :
+						macAddress = ""
+					[14] :
+						macAddress = ""
+					[15] :
+						macAddress = ""
+					[16] :
+						macAddress = ""
+					[17] :
+						macAddress = ""
+					[18] :
+						macAddress = ""
+					[19] :
+						macAddress = ""
+					[20] :
+						macAddress = ""
+					[21] :
+						macAddress = ""
+					[22] :
+						macAddress = ""
+					[23] :
+						macAddress = ""
+					[24] :
+						macAddress = ""
+					[25] :
+						macAddress = ""
+					[26] :
+						macAddress = ""
+					[27] :
+						macAddress = ""
+					[28] :
+						macAddress = ""
+					[29] :
+						macAddress = ""
+					[30] :
+						macAddress = ""
+					[31] :
+						macAddress = ""
+					[32] :
+						macAddress = ""
+					[33] :
+						macAddress = ""
+					[34] :
+						macAddress = ""
+					[35] :
+						macAddress = ""
+					[36] :
+						macAddress = ""
+					[37] :
+						macAddress = ""
+					[38] :
+						macAddress = ""
+					[39] :
+						macAddress = ""
+					[40] :
+						macAddress = ""
+					[41] :
+						macAddress = ""
+					[42] :
+						macAddress = ""
+					[43] :
+						macAddress = ""
+					[44] :
+						macAddress = ""
+					[45] :
+						macAddress = ""
+					[46] :
+						macAddress = ""
+					[47] :
+						macAddress = ""
+					[48] :
+						macAddress = ""
+					[49] :
+						macAddress = ""
+					[50] :
+						macAddress = ""
+					[51] :
+						macAddress = ""
+					[52] :
+						macAddress = ""
+					[53] :
+						macAddress = ""
+					[54] :
+						macAddress = ""
+					[55] :
+						macAddress = ""
+					[56] :
+						macAddress = ""
+					[57] :
+						macAddress = ""
+					[58] :
+						macAddress = ""
+					[59] :
+						macAddress = ""
+					[60] :
+						macAddress = ""
+					[61] :
+						macAddress = ""
+					[62] :
+						macAddress = ""
+					[63] :
+						macAddress = ""
+					[64] :
+						macAddress = ""
+					[65] :
+						macAddress = ""
+					[66] :
+						macAddress = ""
+					[67] :
+						macAddress = ""
+					[68] :
+						macAddress = ""
+					[69] :
+						macAddress = ""
+					[70] :
+						macAddress = ""
+					[71] :
+						macAddress = ""
+					[72] :
+						macAddress = ""
+					[73] :
+						macAddress = ""
+					[74] :
+						macAddress = ""
+					[75] :
+						macAddress = ""
+					[76] :
+						macAddress = ""
+					[77] :
+						macAddress = ""
+					[78] :
+						macAddress = ""
+					[79] :
+						macAddress = ""
+					[80] :
+						macAddress = ""
+					[81] :
+						macAddress = ""
+					[82] :
+						macAddress = ""
+					[83] :
+						macAddress = ""
+					[84] :
+						macAddress = ""
+					[85] :
+						macAddress = ""
+					[86] :
+						macAddress = ""
+					[87] :
+						macAddress = ""
+					[88] :
+						macAddress = ""
+					[89] :
+						macAddress = ""
+					[90] :
+						macAddress = ""
+					[91] :
+						macAddress = ""
+					[92] :
+						macAddress = ""
+					[93] :
+						macAddress = ""
+					[94] :
+						macAddress = ""
+					[95] :
+						macAddress = ""
+					[96] :
+						macAddress = ""
+					[97] :
+						macAddress = ""
+					[98] :
+						macAddress = ""
+					[99] :
+						macAddress = ""
+			macAddressesCount = 0
+			maxAddresses = 100
+			add :
+				path = ""
+				macAddress = ""
+			remove :
+				path = ""
+				index = 0
+		toolLockSetting :
+			enable = 0 (false)
+			password :
+				password{4} :
+					[0] :
+						passwordElement = 0
+					[1] :
+						passwordElement = 0
+					[2] :
+						passwordElement = 0
+					[3] :
+						passwordElement = 0
+				elementCount = 0
+			update :
+				path = ""
+				oldPassword = ""
+				newPassword = ""
+			verify :
+				path = ""
+				password = ""
+			hide = 0 (false)
+		workSheetLockSetting :
+			enable = 0 (false)
+			password :
+				password{4} :
+					[0] :
+						passwordElement = 0
+					[1] :
+						passwordElement = 0
+					[2] :
+						passwordElement = 0
+					[3] :
+						passwordElement = 0
+				elementCount = 0
+			update :
+				path = ""
+				oldPassword = ""
+				newPassword = ""
+			verify :
+				path = ""
+				password = ""
+header :
+	tag :
+		id = "DataSetCollection"
+		type = "DataSetCollection"
+		kind = "StaticPackage"
+	tag :
+		id = "GhostCell"
+		type = "GhostCell"
+		kind = "StaticPackage"
+	tag :
+		id = "Palette"
+		type = "Palette"
+		kind = "UserPackage"
+footer :
+	children :
+		config{1} :
+			[0] :
+				id = "Task[0000]"
+				type = "Task"
+				kind = "UserPackage"
+header :
+	tag :
+		id = "Task[0000]"
+		type = "Task"
+		kind = "UserPackage"
+Task[0000] :
+	references :
+		referenceTable{0} :
+	general :
+		name :
+			english = "Main Task"
+			japanese = "メインタスク"
+			simplifiedChinese = "主任务"
+			traditionalChinese = "主任務"
+			german = "Haupttask"
+			spanish = "Tarea principal"
+			korean = "메인 태스크"
+			french = "Tâche principale"
+			italian = "Task principale"
+			polish = "Zadanie główne"
+			czech = "Hlavní úloha"
+			hungarian = "Fő feladat"
+			indonesian = "Tugas Utama"
+			thai = "งานหลัก"
+			portuguese = "Tarefa principal"
+			vietnamese = "Tác vụ Chính"
+		origin_point :
+			x = 0.000000
+			y = 0.000000
+		executeCondition :
+			type = 0 (FixedCondition)
+			execution = 1 (true)
+			id = ""
+			status = 0 (OK)
+			reference = 0
+			condition = 0
+		coordinateSystem = 1 (BeforePositionAdjust)
+		judgementTarget = 1 (true)
+		errorTarget = 1 (true)
+		scalingCorrection :
+			individual = 0 (false)
+			id = ""
+			scale :
+				x = 1.000000
+				y = 1.000000
+				length = 1.000000
+				enableX = 1 (true)
+				enableY = 1 (true)
+				enableLength = 1 (true)
+		nanMode = 0 (Error)
+		lock = 0 (false)
+		avoidJudgeNanData = 0 (false)
+	routine :
+		eventType = 0 (Unknown)
+		softEventId = 0
+		specifiedTime = 0
+		mode = 0 (Task)
+		targetCell{8} :
+			[0] = ""
+			[1] = ""
+			[2] = ""
+			[3] = ""
+			[4] = ""
+			[5] = ""
+			[6] = ""
+			[7] = ""
+		enableBoth = 0 (false)
+	routineHistory :
+		setting{32} :
+			[0] :
+				enable = 1 (true)
+				name :
+					english = "Archive Condition 00"
+					japanese = "蓄積条件00"
+					simplifiedChinese = "存储条件00"
+					traditionalChinese = "存儲條件00"
+					german = "Archivbedingung00"
+					spanish = "Condición de archivo00"
+					korean = "축적 조건00"
+					french = "Condition d’archivage00"
+					italian = "Condizioni di archiviazione00"
+					polish = "Warunki archiwizacji00"
+					czech = "Podmínka archivace00"
+					hungarian = "Archiválási feltétel00"
+					indonesian = "Kondisi Arsip00"
+					thai = "เงื่อนไขประวัติ00"
+					portuguese = "Condição de arquivamento00"
+					vietnamese = "Điều kiện Lưu trữ00"
+				evalMethod = 0 (Task)
+				evalTarget = "Task[0000]"
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[1] :
+				enable = 1 (true)
+				name :
+					english = "Archive Condition 01"
+					japanese = "蓄積条件01"
+					simplifiedChinese = "存储条件01"
+					traditionalChinese = "存儲條件01"
+					german = "Archivbedingung01"
+					spanish = "Condición de archivo01"
+					korean = "축적 조건01"
+					french = "Condition d’archivage01"
+					italian = "Condizioni di archiviazione01"
+					polish = "Warunki archiwizacji01"
+					czech = "Podmínka archivace01"
+					hungarian = "Archiválási feltétel01"
+					indonesian = "Kondisi Arsip01"
+					thai = "เงื่อนไขประวัติ01"
+					portuguese = "Condição de arquivamento01"
+					vietnamese = "Điều kiện Lưu trữ01"
+				evalMethod = 0 (Task)
+				evalTarget = "Task[0000]"
+				condition = 1 (OK)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[2] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[3] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[4] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[5] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[6] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[7] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[8] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[9] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[10] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[11] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[12] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[13] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[14] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[15] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[16] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[17] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[18] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[19] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[20] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[21] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[22] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[23] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[24] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[25] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[26] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[27] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[28] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[29] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[30] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+			[31] :
+				enable = 0 (false)
+				name :
+					english = ""
+					japanese = ""
+					simplifiedChinese = ""
+					traditionalChinese = ""
+					german = ""
+					spanish = ""
+					korean = ""
+					french = ""
+					italian = ""
+					polish = ""
+					czech = ""
+					hungarian = ""
+					indonesian = ""
+					thai = ""
+					portuguese = ""
+					vietnamese = ""
+				evalMethod = 3 (Always)
+				evalTarget = ""
+				condition = 0 (NG)
+				count = 5
+				mode = 0 (Overwrite)
+				target = 0 (Auto)
+				resultData = 0 (Accumulation)
+				targetThread = ""
+	routineRecordingParam :
+		enable = 0 (false)
+		list{0} :
+		image :
+			bufferNum = 0
+			condition{4} :
+				[0] :
+					type = 0 (FixedCondition)
+					execution = 0 (false)
+					condition = 0 (false)
+					outputFileType = 0 (BMP)
+					rawImageSave = 0 (false)
+					rawImageSaveCycle = 0
+					enable = 0 (false)
+					bufferNum = 0
+				[1] :
+					type = 0 (FixedCondition)
+					execution = 0 (false)
+					condition = 0 (false)
+					outputFileType = 0 (BMP)
+					rawImageSave = 0 (false)
+					rawImageSaveCycle = 0
+					enable = 0 (false)
+					bufferNum = 0
+				[2] :
+					type = 0 (FixedCondition)
+					execution = 0 (false)
+					condition = 0 (false)
+					outputFileType = 0 (BMP)
+					rawImageSave = 0 (false)
+					rawImageSaveCycle = 0
+					enable = 0 (false)
+					bufferNum = 0
+				[3] :
+					type = 0 (FixedCondition)
+					execution = 0 (false)
+					condition = 0 (false)
+					outputFileType = 0 (BMP)
+					rawImageSave = 0 (false)
+					rawImageSaveCycle = 0
+					enable = 0 (false)
+					bufferNum = 0
+			customFolderPath = ""
+			customFileName = ""
+			conditionCount = 0
+			conditionMode = 0 (custom)
+	routineRecording :
+		enable = 0 (false)
+		list{0} :
+		image :
+			bufferNum = 0
+			condition{4} :
+				[0] :
+					type = 0 (FixedCondition)
+					execution = 0 (false)
+					condition = 0 (false)
+					outputFileType = 0 (BMP)
+					rawImageSave = 0 (false)
+					rawImageSaveCycle = 0
+					enable = 0 (false)
+					bufferNum = 0
+				[1] :
+					type = 0 (FixedCondition)
+					execution = 0 (false)
+					condition = 0 (false)
+					outputFileType = 0 (BMP)
+					rawImageSave = 0 (false)
+					rawImageSaveCycle = 0
+					enable = 0 (false)
+					bufferNum = 0
+				[2] :
+					type = 0 (FixedCondition)
+					execution = 0 (false)
+					condition = 0 (false)
+					outputFileType = 0 (BMP)
+					rawImageSave = 0 (false)
+					rawImageSaveCycle = 0
+					enable = 0 (false)
+					bufferNum = 0
+				[3] :
+					type = 0 (FixedCondition)
+					execution = 0 (false)
+					condition = 0 (false)
+					outputFileType = 0 (BMP)
+					rawImageSave = 0 (false)
+					rawImageSaveCycle = 0
+					enable = 0 (false)
+					bufferNum = 0
+			customFolderPath = ""
+			customFileName = ""
+			conditionCount = 0
+			conditionMode = 0 (custom)
+	routineRecordingImageConditionArray :
+		bufferNum = 0
+		condition{4} :
+			[0] :
+				type = 1 (TotalJudge)
+				execution = 1 (true)
+				condition = 1 (true)
+				outputFileType = 3 (PCOMP)
+				rawImageSave = 1 (true)
+				rawImageSaveCycle = 1000
+				enable = 1 (true)
+				bufferNum = 5
+			[1] :
+				type = 1 (TotalJudge)
+				execution = 1 (true)
+				condition = 0 (false)
+				outputFileType = 0 (BMP)
+				rawImageSave = 0 (false)
+				rawImageSaveCycle = 1000
+				enable = 1 (true)
+				bufferNum = 9
+			[2] :
+				type = 0 (FixedCondition)
+				execution = 0 (false)
+				condition = 0 (false)
+				outputFileType = 3 (PCOMP)
+				rawImageSave = 0 (false)
+				rawImageSaveCycle = 1000
+				enable = 0 (false)
+				bufferNum = 5
+			[3] :
+				type = 0 (FixedCondition)
+				execution = 0 (false)
+				condition = 0 (false)
+				outputFileType = 3 (PCOMP)
+				rawImageSave = 0 (false)
+				rawImageSaveCycle = 1000
+				enable = 0 (false)
+				bufferNum = 5
+		customFolderPath = ""
+		customFileName = ""
+		conditionCount = 2
+		conditionMode = 1 (easy)
+footer :
+	children :
+		config{1} :
+			[0] :
+				id = "Thread[0000][0000]"
+				type = "Thread"
+				kind = "UserPackage"
+header :
+	tag :
+		id = "Thread[0000][0000]"
+		type = "Thread"
+		kind = "UserPackage"
+Thread[0000][0000] :
+	references :
+		referenceTable{0} :
+	general :
+		name :
+			english = "Thread1"
+			japanese = "スレッド1"
+			simplifiedChinese = "线程1"
+			traditionalChinese = "進程1"
+			german = "Thread1"
+			spanish = "Rosca1"
+			korean = "스레드1"
+			french = "Filetage1"
+			italian = "Thread1"
+			polish = "Thread1"
+			czech = "Vlákno1"
+			hungarian = "Lánc1"
+			indonesian = "Thread1"
+			thai = "Thread1"
+			portuguese = "Thread1"
+			vietnamese = "Chủ đề1"
+		origin_point :
+			x = 0.000000
+			y = 0.000000
+		executeCondition :
+			type = 0 (FixedCondition)
+			execution = 1 (true)
+			id = ""
+			status = 0 (OK)
+			reference = 0
+			condition = 0
+		coordinateSystem = 1 (BeforePositionAdjust)
+		judgementTarget = 1 (true)
+		errorTarget = 1 (true)
+		scalingCorrection :
+			individual = 0 (false)
+			id = ""
+			scale :
+				x = 1.000000
+				y = 1.000000
+				length = 1.000000
+				enableX = 1 (true)
+				enableY = 1 (true)
+				enableLength = 1 (true)
+		nanMode = 0 (Error)
+		lock = 0 (false)
+		avoidJudgeNanData = 0 (false)
+	thread :
+		camera{8} :
+			[0] = 1 (true)
+			[1] = 0 (false)
+			[2] = 0 (false)
+			[3] = 0 (false)
+			[4] = 0 (false)
+			[5] = 0 (false)
+			[6] = 0 (false)
+			[7] = 0 (false)
+footer :
+	children :
+		config{1} :
+			[0] :
+				id = "Tool[0000]"
+				type = "CaptureSequence"
+				kind = "UserPackage"
+header :
+	tag :
+		id = "Tool[0000]"
+		type = "CaptureSequence"
+		kind = "UserPackage"
+Tool[0000] :
+	references :
+		referenceTable{0} :
+	general :
+		name :
+			english = "Capture"
+			japanese = "撮像"
+			simplifiedChinese = "拍摄"
+			traditionalChinese = "拍攝"
+			german = "Aufnahme"
+			spanish = "Captura"
+			korean = "촬상"
+			french = "Capture"
+			italian = "Acquisizione"
+			polish = "Przechwyć"
+			czech = "Snímat"
+			hungarian = "Felvétel"
+			indonesian = "Bidik"
+			thai = "ถ่ายภาพ"
+			portuguese = "Captura"
+			vietnamese = "Chụp"
+		origin_point :
+			x = 0.000000
+			y = 0.000000
+		executeCondition :
+			type = 0 (FixedCondition)
+			execution = 1 (true)
+			id = ""
+			status = 0 (OK)
+			reference = 0
+			condition = 0
+		coordinateSystem = 1 (BeforePositionAdjust)
+		judgementTarget = 1 (true)
+		errorTarget = 1 (true)
+		scalingCorrection :
+			individual = 0 (false)
+			id = ""
+			scale :
+				x = 1.000000
+				y = 1.000000
+				length = 1.000000
+				enableX = 1 (true)
+				enableY = 1 (true)
+				enableLength = 1 (true)
+		nanMode = 0 (Error)
+		lock = 0 (false)
+		avoidJudgeNanData = 0 (false)
+	imageBuffer :
+		mode = 0 (Hold)
+		count = 1
+footer :
+	children :
+		config{1} :
+			[0] :
+				id = "Tool[0000][0000]"
+				type = "Capture"
+				kind = "UserPackage"
+header :
+	tag :
+		id = "Tool[0000][0000]"
+		type = "Capture"
+		kind = "UserPackage"
+Tool[0000][0000] :
+	references :
+		referenceTable{0} :
+	general :
+		name :
+			english = ""
+			japanese = ""
+			simplifiedChinese = ""
+			traditionalChinese = ""
+			german = ""
+			spanish = ""
+			korean = ""
+			french = ""
+			italian = ""
+			polish = ""
+			czech = ""
+			hungarian = ""
+			indonesian = ""
+			thai = ""
+			portuguese = ""
+			vietnamese = ""
+		origin_point :
+			x = 0.000000
+			y = 0.000000
+		executeCondition :
+			type = 0 (FixedCondition)
+			execution = 1 (true)
+			id = ""
+			status = 0 (OK)
+			reference = 0
+			condition = 0
+		coordinateSystem = 1 (BeforePositionAdjust)
+		judgementTarget = 1 (true)
+		errorTarget = 1 (true)
+		scalingCorrection :
+			individual = 0 (false)
+			id = ""
+			scale :
+				x = 1.000000
+				y = 1.000000
+				length = 1.000000
+				enableX = 1 (true)
+				enableY = 1 (true)
+				enableLength = 1 (true)
+		nanMode = 0 (Error)
+		lock = 0 (false)
+		avoidJudgeNanData = 0 (false)
+	general.recording :
+		archive = 1 (true)
+	cameraStructure{1} :
+		[0] :
+			cameraSelection = 1 (Camera1)
+			basicType = 0 (Area)
+			uniqueType = 1 (Zoom)
+			mode = 0 (Normal)
+			lightBasicType = 1 (Normal)
+			lightUniqueType = 3 (EasyMount)
+			externalFlashNum = 0
+	lightStructure{0} :
+	triggerStructure{1} :
+		[0] = 1 (ID1)
+	flashStructure{5} :
+		[0] = 0 (ExternalFlash1)
+		[1] = 1 (ExternalFlash2)
+		[2] = 2 (ExternalFlash3)
+		[3] = 3 (ExternalFlash4)
+		[4] = 4 (ExternalFlash5)
+	camera[0].basic :
+		enable = 1 (true)
+		captureMode = 0 (Normal)
+		shutterSpeed = 484.554186
+		sensitivity = 4.000000
+		gamma :
+			offset = 0
+			gain = 1.000000
+			value = 1.000000
+		exposureDelayTime = 0.000000
+		lightIntensityMonitor = 0 (false)
+		angleMonitor = 0 (false)
+	camera[0].unique :
+		zoomMagnification = 1.990000
+		focus = 441.474976
+		centerOfFieldX = 101
+		centerOfFieldY = -162
+		imageRotationEnable = 0 (false)
+		imageRotationAngle = 0.000000
+		workingDistanceValid = 0 (false)
+		workingDistance = 0.000000
+		fieldOfViewValid = 0 (false)
+		fieldOfView :
+			x = 0.000000
+			y = 0.000000
+		spatialResolution = 0.000000
+		opticsFileName = "0"
+	camera[0].captureMode :
+		archiveEnable{32} :
+			[0] = 1 (true)
+			[1] = 1 (true)
+			[2] = 1 (true)
+			[3] = 1 (true)
+			[4] = 1 (true)
+			[5] = 1 (true)
+			[6] = 1 (true)
+			[7] = 1 (true)
+			[8] = 1 (true)
+			[9] = 1 (true)
+			[10] = 1 (true)
+			[11] = 1 (true)
+			[12] = 1 (true)
+			[13] = 1 (true)
+			[14] = 1 (true)
+			[15] = 1 (true)
+			[16] = 1 (true)
+			[17] = 1 (true)
+			[18] = 1 (true)
+			[19] = 1 (true)
+			[20] = 1 (true)
+			[21] = 1 (true)
+			[22] = 1 (true)
+			[23] = 1 (true)
+			[24] = 1 (true)
+			[25] = 1 (true)
+			[26] = 1 (true)
+			[27] = 1 (true)
+			[28] = 1 (true)
+			[29] = 1 (true)
+			[30] = 1 (true)
+			[31] = 1 (true)
+		imageCommon :
+			record = 1 (true)
+	camera[0].light.basic :
+		enable = 1 (true)
+		cameraAssignment = 0 (None)
+		intensity = 511
+		continuous = 0 (false)
+		purpose = 0 (Normal)
+	camera[0].light.unique :
+		overDrive :
+			enable = 0 (false)
+			magnification = 2.000000
+			maxMagnification = 0 (false)
+			mode = 0 (OFF)
+		intensityControl = 0 (false)
+		lightingPosition :
+			upper = 1 (true)
+			lower = 1 (true)
+			left = 1 (true)
+			right = 1 (true)
+	trigger[0] :
+		triggerWait = 1 (true)
+		delayTime = 0.000000
+		ContinuousUpdate = 0 (TriggerUpdate)
+		delayCount = 0
+	flashPlug[0] :
+		enable = 0 (false)
+		cameraAssignment = 0 (None)
+		syncShutterSpeed = 0 (false)
+		outputTime = 100.000000
+		delayTime = 0.000000
+	flashPlug[1] :
+		enable = 0 (false)
+		cameraAssignment = 0 (None)
+		syncShutterSpeed = 0 (false)
+		outputTime = 100.000000
+		delayTime = 0.000000
+	flashPlug[2] :
+		enable = 0 (false)
+		cameraAssignment = 0 (None)
+		syncShutterSpeed = 0 (false)
+		outputTime = 100.000000
+		delayTime = 0.000000
+	flashPlug[3] :
+		enable = 0 (false)
+		cameraAssignment = 0 (None)
+		syncShutterSpeed = 0 (false)
+		outputTime = 100.000000
+		delayTime = 0.000000
+	flashPlug[4] :
+		enable = 0 (false)
+		cameraAssignment = 0 (None)
+		syncShutterSpeed = 0 (false)
+		outputTime = 100.000000
+		delayTime = 0.000000
+header :
+	tag :
+		id = "Workbook"
+		type = "Workbook"
+		kind = "UserPackage"
+footer :
+	children :
+		config{1} :
+			[0] :
+				id = "Worksheet"
+				type = "Worksheet"
+				kind = "UserPackage"
+header :
+	tag :
+		id = "Worksheet"
+		type = "Worksheet"
+		kind = "UserPackage"
+footer :
+	children :
+		config{0} :
+header :
+	tag :
+		id = "OpcUa"
+		type = "OpcUa"
+		kind = "StaticPackage"
+OpcUa :
+	nodeData :
+		nodes{0} :

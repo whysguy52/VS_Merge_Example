@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<setting d1p1:type="GigESimulatorSetting" xmlns:d1p1="http://www.w3.org/2001/XMLSchema-instance">
+  <model>VS_L1500CX</model>
+  <configuration>HCam</configuration>
+  <macAddress>00:01:FC:DF:54:5F</macAddress>
+  <type>PersistentIP</type>
+  <ipAddress>172.19.102.200</ipAddress>
+  <subnetMask>255.255.255.0</subnetMask>
+  <defaultGateway>172.19.102.1</defaultGateway>
+  <firmwareVersion>-.-.----</firmwareVersion>
+  <cameras>
+    <camera id="0">
+      <cameraName>VS_L1500CX</cameraName>
+      <lightName>CA_DEW10X</lightName>
+    </camera>
+  </cameras>
+  <lights>
+    <light id="0">
+      <enabled>false</enabled>
+    </light>
+    <light id="1">
+      <enabled>false</enabled>
+    </light>
+    <light id="2">
+      <enabled>false</enabled>
+    </light>
+    <light id="3">
+      <enabled>false</enabled>
+    </light>
+    <light id="4">
+      <enabled>false</enabled>
+    </light>
+  </lights>
+</setting>

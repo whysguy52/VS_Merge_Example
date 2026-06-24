@@ -1,0 +1,156 @@
+{
+    "version": "1.0.0001.0+0",
+    "deviceType": "VS Camera",
+    "network": {
+        "type": "PersistentIP",
+        "ipAddress": "172.19.102.200",
+        "subnetMask": "255.255.255.0",
+        "defaultGateway": "172.19.102.1"
+    },
+    "deviceName": "BensVS",
+    "profinetDeviceName": "vs-xxxx",
+    "light_1": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_2": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_3": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_4": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_5": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_6": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_7": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_8": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_9": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_10": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_11": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_12": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_13": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_14": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_15": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_16": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_17": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_18": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_19": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_20": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_21": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_22": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_23": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    },
+    "light_24": {
+        "enable": "false",
+        "protocol": "GigE",
+        "macAddress": "",
+        "model": "NOT-CONNECTED"
+    }
+}

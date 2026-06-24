@@ -1,0 +1,35 @@
+{
+  "Version": 1,
+  "Content": [
+    {
+      "Path": "Tool[0000].Param.PaletteBasic.Order",
+      "Value": 0,
+      "Type": "System.Int32",
+      "InnerType": "System.Int32"
+    },
+    {
+      "Path": "Tool[0000].Param.PaletteAdvanced.Position.Y",
+      "Value": 2.0,
+      "Type": "System.Double",
+      "InnerType": "System.Double"
+    },
+    {
+      "Path": "Tool[0000].Param.PaletteAdvanced.Position.X",
+      "Value": 10.0,
+      "Type": "System.Double",
+      "InnerType": "System.Double"
+    },
+    {
+      "Path": "Tool[0000].Param.PaletteBasic.Category",
+      "Value": "CAPTURE",
+      "Type": "System.String",
+      "InnerType": "System.String"
+    },
+    {
+      "Path": "LocalMnemonic.Input.General.NanMode",
+      "Value": "Error",
+      "Type": "System.String",
+      "InnerType": "System.String"
+    }
+  ]
+}

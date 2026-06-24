@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "Content": {
+    "json": {
+      "container": "luckysheet",
+      "data": [
+        {
+          "name": "Sheet",
+          "config": {},
+          "index": "0",
+          "zoomRatio": 1,
+          "order": 0,
+          "column": 100,
+          "row": 1000,
+          "status": 1,
+          "data": {},
+          "ch_width": 2322,
+          "rh_height": 2322,
+          "luckysheet_conditionformat_save": [],
+          "luckysheet_select_save": [
+            {
+              "row": [
+                0,
+                0
+              ],
+              "column": [
+                0,
+                0
+              ],
+              "isFocus": true,
+              "left": 0,
+              "width": 73,
+              "top": 0,
+              "height": 19,
+              "left_move": 0,
+              "width_move": 73,
+              "top_move": 0,
+              "height_move": 19
+            }
+          ],
+          "luckysheet_selection_range": [],
+          "scrollLeft": 0,
+          "scrollTop": 0,
+          "showGridLines": true
+        }
+      ],
+      "containerWidth": 750,
+      "containerHeight": 600,
+      "hook": {},
+      "visibleCellRange": "",
+      "showtoolbar": true,
+      "showsheetbar": false,
+      "showstatisticBar": true,
+      "sheetFormulaBar": true,
+      "cellRightClickConfig": {
+        "cut": true,
+        "copy": true,
+        "paste": true,
+        "pasteAs": true,
+        "insertCell": true,
+        "deleteCell": true,
+        "hideRow": false,
+        "hideColumn": false,
+        "insertFunction": true,
+        "clear": true,
+        "template": true,
+        "memo": true,
+        "link": true,
+        "button": true,
+        "insertRow": true,
+        "insertColumn": true,
+        "deleteRow": true,
+        "deleteColumn": true,
+        "resizeRow": true,
+        "resizeColumn": true,
+        "chart": true,
+        "valueShare": true
+      }
+    },
+    "cells": []
+  }
+}
