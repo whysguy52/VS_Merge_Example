@@ -27,7 +27,7 @@
     },
     {
       "Path": "LocalMnemonic.EditorLocalMnemonics.RecordFolder",
-      "Value": "C:\\Users\\Public\\Documents\\KEYENCE\\VS\\00-01-FC-DF-54-5F\\EM\\VS\\Camera\\Programs\\0000_GitHub_Protram\\SimulationImages",
+      "Value": "C:\\Users\\Public\\Documents\\KEYENCE\\VS\\VS_Merge_Example\\EM\\VS\\Camera\\Programs\\0000_GitHub_Protram\\SimulationImages",
       "Type": "System.String",
       "InnerType": "System.String"
     },
@@ -69,7 +69,7 @@
     },
     {
       "Path": "LocalMnemonic.EditorLocalMnemonics.SimulationImageFileSourceFolder",
-      "Value": "C:\\Users\\Public\\Documents\\KEYENCE\\VS\\00-01-FC-DF-54-5F\\EM\\VS\\Camera\\Programs\\0000_GitHub_Protram\\SimulationImages",
+      "Value": "C:\\Users\\Public\\Documents\\KEYENCE\\VS\\VS_Merge_Example\\EM\\VS\\Camera\\Programs\\0000_GitHub_Protram\\SimulationImages",
       "Type": "System.String",
       "InnerType": "System.String"
     },
