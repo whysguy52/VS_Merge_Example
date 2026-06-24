@@ -3,7 +3,7 @@
   "Content": [
     {
       "Path": "LocalMnemonic.ImageStripLocalMnemonics.RecordFolderAssign",
-      "Value": false,
+      "Value": true,
       "Type": "System.Boolean",
       "InnerType": "System.Boolean"
     },
@@ -63,7 +63,7 @@
     },
     {
       "Path": "LocalMnemonic.ImageStripLocalMnemonics.SimulationImageFileSourceFolderAssign",
-      "Value": false,
+      "Value": true,
       "Type": "System.Boolean",
       "InnerType": "System.Boolean"
     },
