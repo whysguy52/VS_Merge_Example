@@ -1,0 +1,16 @@
+{
+    "series": "VS Camera",
+    "deviceType": "Camera",
+    "formatVersion": "2.0.0011.2567+5b5582f9",
+    "minimumVersion": "2.0.0000.2567+5b5582f9",
+    "createdVersion": "2.0.0011.2567+5b5582f9",
+    "fileFormat": "TextFormat",
+    "files": [
+        {
+            "id": 0,
+            "type": "OpticsSetting",
+            "path": "000_ZoomTrax.opt",
+            "scope": "Global"
+        }
+    ]
+}
